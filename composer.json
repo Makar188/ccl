@@ -1,0 +1,23 @@
+{
+  "name": "makar188/clilibrary",
+  "type": "library",
+  "version":"1.0.0",
+  "description": "Cli command library",
+  "authors": [
+    {
+      "name": "Igor Makarov",
+      "email": "makar188@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Library\\": "src/Console/Library/",
+      "Exceptions\\": "src/Console/Exceptions/",
+      "Console\\": "src/Console/",
+      "Preset\\": "src/Console/Preset"
+    }
+  }
+}
